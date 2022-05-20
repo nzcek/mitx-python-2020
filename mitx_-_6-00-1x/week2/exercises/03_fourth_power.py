@@ -1,5 +1,6 @@
 def fourthPower(x):
-    '''
-    x: int or float.
-    '''
-    return square(square(x))
+
+  for x in range(5):
+      print(x*x)
+
+fourthPower(4)
